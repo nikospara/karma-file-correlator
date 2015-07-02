@@ -1,0 +1,28 @@
+{
+	"name": "karma-file-correlator",
+	"version": "0.1.0",
+	"description": "A set of Karma plugins to correlate specifications with the files that contain them and a filter to execute only a subset of specifications or files.",
+	"files": [
+		"LICENSE",
+		"README.md",
+		"index.js",
+		"src"
+	],
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nikospara/karma-file-correlator.git"
+	},
+	"keywords": [
+		"karma-plugin",
+		"karma-framework",
+		"karma-reporter",
+		"karma-preprocessor"
+	],
+	"author": "Nikos Paraskevopoulos",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/nikospara/karma-file-correlator/issues"
+	},
+	"homepage": "https://github.com/nikospara/karma-file-correlator"
+}
