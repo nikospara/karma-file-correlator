@@ -16,20 +16,21 @@ testing frameworks. The relevant files are `src/framework-jasmine.js` and
 
 And in Karma configuration:
 
-	```javascript
-	module.exports = function(config) {
-		...
-		plugins: [..., 'karma-jasmine', 'karma-file-correlator'],
-		...
-		frameworks: ['jasmine', 'file-correlator-jasmine'],
-		...
-		reporters: [..., 'file-correlator-remote'],
-		...
-		preprocessors: {
-			'**/*.spec.js': [..., 'file-correlator']
-		},
-		...
-	};
+```javascript
+module.exports = function(config) {
+	...
+	plugins: [..., 'karma-jasmine', 'karma-file-correlator'],
+	...
+	frameworks: ['jasmine', 'file-correlator-jasmine'],
+	...
+	reporters: [..., 'file-correlator-remote'],
+	...
+	preprocessors: {
+		'**/*.spec.js': [..., 'file-correlator']
+	},
+	...
+};
+```
 
 ## How it works
 
